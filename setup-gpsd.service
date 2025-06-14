@@ -1,0 +1,11 @@
+[Unit]
+Description=Run GPSD setup on first boot
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/setup-gpsd.sh
+RemainAFterExit=true
+
+[Install]
+WantedBy=multi-user.target

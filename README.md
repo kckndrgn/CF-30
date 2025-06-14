@@ -1,2 +1,3 @@
 # CF-30
-ISO image for CF-30 toughbook
+Script to download and build custom image for Toughbook CF-30
+along with helper scripts that are loaded into the image
